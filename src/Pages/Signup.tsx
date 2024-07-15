@@ -1,8 +1,8 @@
 import welcome from "../assets/welcome.png"
 import google from "../assets/google.png"
-import facebook from "../assets/facebook.png"
+
 import { signInWithEmailAndPassword, signInWithPopup } from "firebase/auth"
-import { auth, facebookProvider, googleProvider } from "../firebase/setup"
+import { auth, googleProvider } from "../firebase/setup"
 import { useState } from "react"
 import EmailSignup from "../components/EmailSignup"
 import { useNavigate } from "react-router-dom"
